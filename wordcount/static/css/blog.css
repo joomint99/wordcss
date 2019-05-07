@@ -1,0 +1,60 @@
+body {
+	MARGIN : 0;
+	text-align: center;
+}
+
+.introduction {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:beige;
+	width: 100%;
+}
+
+
+
+#title {
+    font-family: 'Jua', cursive;
+	font-size: 40px;
+	color: pink;
+}
+
+#para {
+	font-family: 'Jua', cursive;
+	font-size: 20px;
+	color: skyblue;
+}
+
+#mybutton {
+	-moz-box-shadow: 6px 4px 0px 1px #efdcfb;
+	-webkit-box-shadow: 6px 4px 0px 1px #efdcfb;
+	box-shadow: 6px 4px 0px 1px #efdcfb;
+	background-color:#dfbdfa;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Jua', cursive
+	font-size: 17px;
+	padding:14px 22px;
+	border: none;
+    outline:none;
+	
+}
+
+#mybutton:hover {
+	font-family: 'Jua', cursive
+	background-color:#bc80ea;
+}
+#mybutton:active {
+	font-family: 'Jua', cursive
+	position:relative;
+	top:1px;
+}
+
+#small {
+	color: black
+	font-family: 'Jua', cursive
+}

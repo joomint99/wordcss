@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wordcount home</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua|Nanum+Myeongjo|Nanum+Pen+Script" rel="stylesheet">
+</head>
+
+<body>
+    <div class='introduction'>
+        <h1 id='title'>Wordcount_home</h1>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <a href="{%url 'about'%}" id="mybutton">About page</a>
+    <br>
+    <br>
+    <form action="{%url 'result'%}">
+        <textarea cols='40' rows='10' name='fulltext'></textarea>
+        <br>
+        <!-- #count라는 글자가 버튼 안에 쓰여져있길 -->
+
+  
+        
+        <input type='submit' value='Count! 'id='mybutton'></button>
+    </form>
+</body>
